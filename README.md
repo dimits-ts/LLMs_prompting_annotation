@@ -6,4 +6,6 @@ The repository is organized as follows:
 
 1. [ChatGPT prompting fail cases](chatgpt/chatgpt-python-prompt.ipynb) where we explore two cases of ChatGPT code generation failing.
 
-2. [LLM prompting for annotation](annotation/annotation.ipynb) where we leverage LLMs to help us in a difficult annotation task, which we then handle by using pandas
+2. [LLM prompting for annotation](annotation/annotation.ipynb) where we leverage LLMs to help us in a difficult annotation task, which we then handle by using pandas.
+
+3. [Annotation analysis](ann_stats/ann_stats.ipynb) where we analyze the clustering between different annotators.
