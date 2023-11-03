@@ -9,3 +9,5 @@ The repository is organized as follows:
 2. [LLM prompting for annotation](annotation/annotation.ipynb) where we leverage LLMs to help us in a difficult annotation task, which we then handle by using pandas.
 
 3. [Annotation analysis](ann_stats/ann_stats.ipynb) where we analyze the clustering between different annotators.
+
+4. [Secure-GPT](secure-gpt/SecureGPT_HW4.pptx) a Presentation of a new LLM use-case to 
