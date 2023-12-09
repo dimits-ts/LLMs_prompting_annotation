@@ -10,4 +10,4 @@ The repository is organized as follows:
 
 3. [Annotation analysis](ann_stats/ann_stats.ipynb) where we analyze the clustering between different annotators.
 
-4. [Secure-GPT](secure-gpt/SecureGPT_HW4.pptx) a Presentation of a new LLM use-case to 
+4. [Secure-GPT](secure-gpt/SecureGPT_HW4.pptx) a group presentation for a new LLM use-case to make the internet safer - includes fake data generation for demonstration purposes 
