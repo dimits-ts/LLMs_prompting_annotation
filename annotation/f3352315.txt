@@ -1,0 +1,30 @@
+# Practical Data Science - Assignment 2
+
+### Dimitris Tsirmpas
+
+## Methodology
+
+The annotation was performed in the following steps:
+
+1. Import the xlsx file into jupyter notebook
+2. Assign a relatively specific label to each proverb
+3. Use the pandas library to view common labels and organize the dataset
+4. Group specific labels to more general labels
+5. Automatically assign each distinct label (cluster) to an integer from 1 to 10
+6. Export the integer labels to the xlsx file and fill in cluster descriptions
+
+
+## Difficulties:
+
+- The dataset was extremely uncommon (non common Greek dialects) which meant traditional ML methods for text such as LDA 
+could not be used.
+- The proverbs were at times difficult to understand, forcing us to use the "none" label when classification was extermely unreliable
+- Some proverbs shared multiple clusters, fuzzy clustering may have been preferred in order to accurately convey their meaning
+
+
+## Possible future improvements
+
+- Use multi-label annotation (fuzzy clustering) to more accurately convey the proverbs' meaning
+- Perhaps use simple NLP algorithms to estimate (even with low confidence) the subject of a proverb, speeding up annotation
+- Documenting the decisions we took for hard-to-classify proverbs
+- Include pandas code in order for future annotators to be able to easily visualize / manage the dataset
